@@ -1,0 +1,116 @@
+/* =========================================================================
+ * BASE
+ * ========================================================================= */
+
+/* HTML
+ * ------------------------------------------------------------------------- */
+
+html {
+  height: 100%;
+}
+
+/* BODY
+ * ------------------------------------------------------------------------- */
+
+body{
+background-image:url("../images/ui/background.jpg");
+background-position: 50%;
+background-repeat: no-repeat;
+}
+main{
+  background-color: rgb(51, 47, 47);
+}
+.marge{
+  margin-left: 75%;
+}
+.navbar-nav{
+  font-size: large;
+}
+.navbar-nav a{
+  color: white;
+  text-decoration: underline;
+}
+.carousel-item img{
+  width: 50%;
+  height: 25%;
+}
+
+
+body {
+  display: flex;
+
+  margin: 0;
+
+  min-width: var(--dom--min-width);
+  min-height: 100%;
+
+  flex-direction: column;
+
+  font-family: sans-serif;
+}
+h1{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.prix{
+  margin-bottom: 0%;
+  margin-top: 2%;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: x-large;
+}
+p{
+  margin-right: 3%;
+}
+.real{
+  margin-bottom: 0%;
+  margin-top: 2%;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: gray;
+  font-size: x-large;
+}
+.logo{
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  background: red;
+  color: white;
+  
+}
+.navfoot a{
+  text-decoration:underline;
+  color: black;
+  font-size: small;
+}
+.foot{
+  font-size: small;
+  margin-bottom: 0%;
+  color: coral;
+}
+footer a{
+  text-decoration: none;
+}
+
+/* JE NE SAIS PAS FAIRE LE RESPONSIVE :(
+/* =========================================================================
+ * MY CUSTOM STYLE
+ * ========================================================================= */
+
+.example-collection {
+  margin: auto;
+  align-items: center;
+}
+
+.example-collection > .collection__item:not(:first-child) {
+  margin-top: var(--offset--medium);
+}
+
+.brand-logo {
+  width: 128px;
+}
+
+.page-title {
+  color: var(--color--dark-grey);
+}
+
+.font-awesome-example {
+  color: var(--color--black);
+}
